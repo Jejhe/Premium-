@@ -60,16 +60,16 @@ INSERT INTO `addon_account_data` (`id`, `account_name`, `money`, `owner`) VALUES
 	(6, 'society_cardealer', 50000, NULL),
 	(7, 'society_ambulance', 49660, NULL),
 	(321, 'society_mafia', 0, NULL),
-	(322, 'property_black_money', 0, 'steam:11000013d4486db'),
-	(323, 'bank_savings', 0, 'steam:11000013d4486db'),
-	(324, 'caution', 0, 'steam:11000013d4486db'),
+	(322, 'property_black_money', 0, ''),
+	(323, 'bank_savings', 0, ''),
+	(324, 'caution', 0, ''),
 	(325, 'society_mechanic', 0, NULL),
-	(328, 'property_black_money', 0, 'steam:110000142bdf425'),
-	(329, 'caution', 0, 'steam:110000142bdf425'),
-	(330, 'bank_savings', 0, 'steam:110000142bdf425'),
-	(331, 'property_black_money', 0, 'steam:1100001468829f9'),
-	(332, 'bank_savings', 0, 'steam:1100001468829f9'),
-	(333, 'caution', 0, 'steam:1100001468829f9');
+	(328, 'property_black_money', 0, ''),
+	(329, 'caution', 0, ''),
+	(330, 'bank_savings', 0, ''),
+	(331, 'property_black_money', 0, ''),
+	(332, 'bank_savings', 0, ''),
+	(333, 'caution', 0, '');
 /*!40000 ALTER TABLE `addon_account_data` ENABLE KEYS */;
 
 -- Dumping structure for table premium.addon_inventory
@@ -166,9 +166,6 @@ CREATE TABLE IF NOT EXISTS `baninfo` (
 -- Dumping data for table premium.baninfo: ~3 rows (approximately)
 /*!40000 ALTER TABLE `baninfo` DISABLE KEYS */;
 INSERT INTO `baninfo` (`id`, `license`, `identifier`, `liveid`, `xblid`, `discord`, `playerip`, `playername`) VALUES
-	(1, 'license:3425d5ce2164c011a6e02f86284b8b3a0f203841', 'steam:11000013d4486db', NULL, NULL, 'discord:580257498196344833', 'ip:154.85.76.226', 'Ahsan Qureshi'),
-	(2, 'license:6f4147c7a60c893c6d467b55dd54cc98be4c5ee7', 'steam:110000142bdf425', 'live:1899947230901117', NULL, 'discord:581563125241741320', 'ip:27.6.242.88', 'Walter White'),
-	(3, 'license:8a5b23ff06c424d19219403c140537d4f94b55c0', 'steam:1100001468829f9', 'live:914797971471288', 'xbl:2535439412443356', NULL, 'ip:39.34.187.224', 'Baasha Bhai');
 /*!40000 ALTER TABLE `baninfo` ENABLE KEYS */;
 
 -- Dumping structure for table premium.banlist
